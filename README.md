@@ -15,7 +15,7 @@ $ npm run client-install
 ```
 
 ### 2. Create the Database
-We need to create a Database with mysql, just the database because we are going to connect it by the ORM Sequelize, so Sequelize is going to create the table and all columns. In the next step we are going to set all enviroment variables related with this DB and make passible the connection.
+We need to create a Database named `todos` with mysql, just the database because we are going to connect it by the ORM Sequelize, so Sequelize is going to create the table and all columns. In the next step we are going to set all enviroment variables related with this DB and make passible the connection.
 
 ### 3. Create an `.env` file in the server level, this to run server and connect to the DB
 
